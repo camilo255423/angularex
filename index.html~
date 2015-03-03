@@ -1,0 +1,13 @@
+<html>
+<head>
+<script src="angular.min.js"></script>
+<script src="angular-route.min.js"></script>
+</head>
+<body ng-app="app1">
+Prueba
+<input type="text" ng-model="nombre" />
+<p ng-bind="nombre"></p>
+<script> var app = angular.module('myapp', ['ngRoute']); </script>
+</body>
+
+</html>
